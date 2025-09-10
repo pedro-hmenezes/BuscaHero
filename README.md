@@ -27,4 +27,4 @@ O projeto utiliza a **[SuperHero API](https://www.superheroapi.com/)** para obte
 - Resultados dependem da base de dados da API.
 
 ---
-💡 *Desenvolvido para fins acadêmicos.*
+*Desenvolvido para fins acadêmicos.*
