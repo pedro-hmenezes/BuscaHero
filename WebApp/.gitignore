@@ -1,0 +1,13 @@
+# Ignorar arquivos de variáveis de ambiente que contêm segredos
+.env
+
+# Ignorar a pasta de dependências do Node.js (se você usar)
+# Essa pasta pode ter milhares de arquivos e é recriada com 'npm install'
+node_modules
+
+# Ignorar arquivos de log
+*.log
+
+# Arquivos gerados pelo sistema operacional que não precisam ir para o repositório
+.DS_Store
+Thumbs.db
