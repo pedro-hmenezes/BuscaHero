@@ -1,0 +1,86 @@
+:root {
+  --branco: #FFFFFF;
+  --preto: #00010D;
+  --cinza-escuro: #1B263B;
+  --cinza-borda: #4F5D75;
+  --vermelho: #EF233C;
+}
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--branco);
+}
+.titulo {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--vermelho);
+}
+
+body {
+  text-align: center;
+  font-family: "Bangers", system-ui;
+  background: var(--preto);
+  color: var(--branco);
+}
+
+.search-input {
+  padding: 10px 16px;
+  border: 2px solid var(--cinza-borda);
+  border-radius: 25px;
+  font-size: 1.1rem;
+  outline: none;
+  background: var(--cinza-escuro);
+  color: var(--branco);
+  margin-right: 8px;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--vermelho);
+}
+
+.search {
+  padding: 10px 24px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, var(--vermelho) 0%, var(--cinza-borda) 100%);
+  color: var(--branco);
+  font-size: 1.1rem;
+  font-family: "Bangers", system-ui;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.search:hover {
+  background: linear-gradient(90deg, var(--cinza-borda) 0%, var(--vermelho) 100%);
+  transform: scale(1.05);
+}
+
+.hero-card {
+  background: var(--cinza-escuro);
+  border: 2px solid var(--cinza-borda);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 450px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.hero-card img {
+  align-self: center;
+  border-radius: 8px;
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;            
+}
+
+.cor-info {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--vermelho);
+}
